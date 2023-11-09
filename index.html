@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form >
+    <form onsubmit="return checking()">
         <div class="format">
-            Username : <input type="text" id="username">
+            Username : <input type="text" id="username" required>
             <span id="msg"></span>
         </div>
         <div class="format">
@@ -17,10 +17,14 @@
             <span id="passMsg"></span>
         </div>
         <div class="format">
+            Confirm Password : <input type="password" id="conpassword">
+            <span id="conpassMsg"></span>
+        </div>
+        <div class="format">
             Email Id : <input type="email" id="emailid">
             <span id="mailMsg"></span>
         </div>
-        <button value="Submit">Submit</button>
+        <button id="submit">Submit</button>
     </form>
 
     <script src="index.js"></script>
