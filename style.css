@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+}
+form{
+    min-height: 100vh;
+    color: aliceblue;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+input{
+    width: 25rem;
+    height: 2rem;
+    outline: none;
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+button{
+    color: whitesmoke;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+button:hover{
+    color: black;
+    border-color: whitesmoke ;
+}
