@@ -34,7 +34,7 @@ button:hover{
     color: black;
     border-color: whitesmoke ;
 }
-#msg{
+span{
     font-size: 1rem;
 }
 .format{
